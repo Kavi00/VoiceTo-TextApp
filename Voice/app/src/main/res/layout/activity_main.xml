@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vlogo1"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/nextPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="53dp"
+        android:background="#FCF9F9"
+        android:backgroundTint="#FCF9F9"
+        android:fontFamily="cursive"
+        android:text="Click Here To Proceed ->"
+        android:textAlignment="center"
+        android:textColor="#F00707"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>
